@@ -25,7 +25,7 @@ void loop() {
       Serial.println("0 Pressed");
       blink_delay = 0;
     }
-    if(results.value==3772784863)
+    if(results.value==3772784863) // this number differs from a remote-control to another
     {
       Serial.println("1 Pressed");
       blink_delay = 100;
